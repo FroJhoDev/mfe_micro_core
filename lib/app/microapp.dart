@@ -1,0 +1,7 @@
+import 'micro_core_utils.dart';
+
+abstract class Microapp {
+  String get microAppName;
+
+  Map<String, WidgetBuilderArgs> get routers;
+}
